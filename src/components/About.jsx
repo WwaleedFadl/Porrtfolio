@@ -43,7 +43,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
-        loremloremloremloremloremloremloremloremlorem
+        I am passionate about applying my skills in web development across a
+        variety of fields and am always open to learning new tools and
+        technologies. I strive to deliver high-quality work and am dedicated to
+        personal growth and continuous improvement. It would be a pleasure to
+        collaborate on diverse projects, adapt to new challenges, and contribute
+        meaningfully in any setting. I am always ready to embrace new
+        opportunities with enthusiasm, a positive attitude, and a willingness to
+        learn.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

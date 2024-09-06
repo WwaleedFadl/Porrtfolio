@@ -3,13 +3,13 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  // Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components";
+import StarsCanvas from "./components/canvas/Stars";
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +23,7 @@ function App() {
           <Experience />
           <Tech />
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
